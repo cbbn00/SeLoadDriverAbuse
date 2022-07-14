@@ -30,8 +30,13 @@ The binary will execute shell.exe with administrative privileges and a shell wit
 
 Resources:
 https://www.tarlogic.com/blog/abusing-seloaddriverprivilege-for-privilege-escalation/
+
 https://github.com/tandasat/ExploitCapcom
+
 https://github.com/TarlogicSecurity/EoPLoadDriver/
+
 https://github.com/FuzzySecurity/Capcom-Rootkit/blob/master/Driver/Capcom.sys
+
 https://0xdf.gitlab.io/2020/10/31/htb-fuse.html
+
 https://youtu.be/VxbC03xmS60 (Ippsec HTB-Fuse).
