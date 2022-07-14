@@ -1,6 +1,6 @@
 # SeLoadDriverAbuse
 
-Pre-compiled binaries to exploit SeLoadDriver privilege in x64 based Windows Systems.
+Pre-compiled binaries to exploit SeLoadDriver privilege for privilege escalation in x64 based Windows Systems.
 
 Upload the two binaries along with the Capcom.sys driver to the victim machine.
 
@@ -27,3 +27,11 @@ Now run the exploit with nc listener:
 ```
 
 The binary will execute shell.exe with administrative privileges and a shell with will be spawned on the netcat listener as `nt authority\system`.
+
+Resources:
+https://www.tarlogic.com/blog/abusing-seloaddriverprivilege-for-privilege-escalation/
+https://github.com/tandasat/ExploitCapcom
+https://github.com/TarlogicSecurity/EoPLoadDriver/
+https://github.com/FuzzySecurity/Capcom-Rootkit/blob/master/Driver/Capcom.sys
+https://0xdf.gitlab.io/2020/10/31/htb-fuse.html
+https://youtu.be/VxbC03xmS60 (Ippsec HTB-Fuse).
