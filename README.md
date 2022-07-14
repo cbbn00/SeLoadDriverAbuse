@@ -1,6 +1,6 @@
 # SeLoadDriverAbuse
 
-Pre-compiled binaries to exploit SeLoadDriver privilege for privilege escalation in x64 based Windows Systems.
+Pre-compiled binaries to exploit SeLoadDriver privilege using Capcom.sys driver for privilege escalation in x64 based Windows Systems.
 
 Upload the two binaries along with the Capcom.sys driver to the victim machine.
 
