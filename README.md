@@ -29,6 +29,8 @@ Now run the exploit with nc listener:
 The binary will execute shell.exe with administrative privileges and a shell with will be spawned on the netcat listener as `nt authority\system`.
 
 
+
+
 ---------------------------------------
 
 Resources:
